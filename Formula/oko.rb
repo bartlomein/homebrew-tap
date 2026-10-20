@@ -5,23 +5,23 @@ class Oko < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/bartlomein/oko/releases/download/v0.9.0/oko-v0.9.0-aarch64-apple-darwin.tar.gz"
-      sha256 "902ad7f2f54615120360802318c5baed4bbb1b70001f834a3cbff0b2fc79c503"
+      url "https://github.com/bartlomein/oko/releases/download/v0.9.1/oko-v0.9.1-aarch64-apple-darwin.tar.gz"
+      sha256 "204965d8d7668796b65c2047ec7d4dd9e4f8e2bbc29c33f47c2dbee262dedf17"
     end
     on_intel do
-      url "https://github.com/bartlomein/oko/releases/download/v0.9.0/oko-v0.9.0-x86_64-apple-darwin.tar.gz"
-      sha256 "ac6a88ee0d97c00aafe17edc2757f3f9cbcb0406006a647c7f27f12b8335f074"
+      url "https://github.com/bartlomein/oko/releases/download/v0.9.1/oko-v0.9.1-x86_64-apple-darwin.tar.gz"
+      sha256 "c342c8ab4dc1dd3218673eb9e690fd4dc392bfd92999c6720c6b88792b665744"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/bartlomein/oko/releases/download/v0.9.0/oko-v0.9.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "35d2baf89301937f9fd99fe7fbe4303bc114cb0dbf79876fb3895fd64a37fa94"
+      url "https://github.com/bartlomein/oko/releases/download/v0.9.1/oko-v0.9.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "01fce637b661855f02ae1ff249e7a80c0edc005563d172d3880536d376704c10"
     end
     on_intel do
-      url "https://github.com/bartlomein/oko/releases/download/v0.9.0/oko-v0.9.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "b679cf84b5a5bae28030770100d39f4a79f42bf4cb0b380705e9cabcc27b87da"
+      url "https://github.com/bartlomein/oko/releases/download/v0.9.1/oko-v0.9.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "1809f8df383828ef68d8143a2dba1f23370eb157d8a24cc0f7e80dce6a7ce4a7"
     end
   end
 
